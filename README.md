@@ -1,6 +1,6 @@
-# A-deep-and-Advanced-LSTM-to-predict-Covid-cases-for-next-30-days
+#  Project Title: A-deep-and-Advanced-LSTM-to-predict-Covid-cases
 
-A-deep-and-Advanced-LSTM-to-predict-Covid-cases-for-next-30-days
+This project is designed to predict the new Covid 19 cases for the next 30 days by using a deep learning model.  In this model, LSTM neural network is implemented to predict the new cases in Malaysia using the past 30 days of number of cases.
 
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
@@ -10,25 +10,20 @@ A-deep-and-Advanced-LSTM-to-predict-Covid-cases-for-next-30-days
 ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
 
-![plot chart](https://user-images.githubusercontent.com/121808701/210244872-828b3979-614f-4edc-9af8-cb052e32e86f.png)
-## Accuracy
-![accuracy](https://user-images.githubusercontent.com/121808701/210244924-fba4bd82-782a-4e77-a20f-ed3d4c352c8f.png)
-## Confusion Matrix
-![confusion matrix](https://user-images.githubusercontent.com/121808701/210245041-f7746273-d4e0-400f-9faa-eee91bffbbc7.png)
+## Weakness in this model
+Due to the time contrainsts, the model is not perfectly trained.  Future work will be required to modify and improve the model to achieve higher accuracy.
 
-
-
-# Project Title
-
-A brief description of what this project does and who it's for
-@ -44,8 +28,11 @@ Add badges from somewhere like: [shields.io](https://shields.io/)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white)
+## Citation
+GitHub - MoH-Malaysia/covid19-public: Official data on the COVID-19 epidemic in Malaysia.  Powered by CPRC, CPRC Hospital System, MKAK, and MySejahtera.
 
 ## Screenshots
+### Predicted vs Actual
+![Predicted vs Actual](https://user-images.githubusercontent.com/121808701/211265817-d26eea17-922d-47fc-8c86-4ee37dfd0f6d.png)
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
-![plot chart](https://user-images.githubusercontent.com/121808701/210244872-828b3979-614f-4edc-9af8-cb052e32e86f.png)
-### Accuracy
-![accuracy](https://user-images.githubusercontent.com/121808701/210244924-fba4bd82-782a-4e77-a20f-ed3d4c352c8f.png)
-### Confusion Matrix
-![confusion matrix](https://user-images.githubusercontent.com/121808701/210245041-f7746273-d4e0-400f-9faa-eee91bffbbc7.png)
+### Model Architecture
+![model](https://user-images.githubusercontent.com/121808701/211266072-bd96c124-568b-44df-a7b9-4ede29e46f6e.png)
+
+### Error ratio
+![Training result](https://user-images.githubusercontent.com/121808701/211266237-3b4fc7da-2a73-4336-a054-7510bf1a4db8.png)
+
+
